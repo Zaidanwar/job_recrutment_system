@@ -1,0 +1,105 @@
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page Title -->
+    <title>JOB SEEK</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="static/images/logo/favicon.png" type="image/x-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/animate-3.7.0.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome-4.7.0.min.css' %}">
+    <link rel="stylesheet" href="{% static 'fonts/flat-icon/flaticon.css'%}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-4.1.3.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl-carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+    <!-- Preloader Starts -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Header Area Starts -->
+	<header class="header-area main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo-area">
+<!--                        <a href="index.html"><img src="static/images/logo.png" alt="logo"></a>-->
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="custom-navbar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+
+                    <div class="main-menu">
+
+
+                        <ul>
+
+                            <li class="menu-btn">
+<!--                                <h1>JOB RECRUTMENT SYSTEM</h1>-->
+                                <a href="{% url 'login' %}" class="login">log in</a>
+                                <a href="{% url 'signup' %}"class="template-btn">sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h1>JOB RECRUTMENT SYSTEM</h1>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Banner Area Starts -->
+    <section class="banner-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 px-0">
+                    <div class="banner-bg"></div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="banner-text">
+                        <h1>find your dream job and <span>find your best candidate</span> with our team</h1>
+<!--                        <p class="py-3">Wherein herb beginning. Moved after gathering. Sea hi crate fowl man replenish place divided likeness herb one two lnetn Winged moving saw, may over.</p>-->
+<!--                        <a href="#" class="secondary-btn">explore now<span class="flaticon-next"></span></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Area End -->
+
+    <!-- Search Area Starts -->
+
+
+
+    <!-- Javascript -->
+    <script src="{%static 'js/vendor/jquery-2.2.4.min.js'%}"></script>
+	<script src="{%static 'js/vendor/bootstrap-4.1.3.min.js'%}"></script>
+    <script src="{%static 'js/vendor/wow.min.js'%}"></script>
+    <script src="{%static 'js/vendor/owl-carousel.min.js'%}"></script>
+    <script src="{%static 'js/vendor/jquery.nice-select.min.js'%}"></script>
+    <script src="{%static 'js/vendor/ion.rangeSlider.js' %}"></script>
+    <script src="{%static 'js/main.js'%}"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+{% for a in ap %}
+
+ <li ><h5> Usename: {{a.applied_user.username}}</h5></li>
+                                        <li><h5> Email: {{a.applied_user.email}}</h5></li>
+    <li><h5>Phone Number: {{a.applied_user.phone_no}}</h5></li></div>
+{% endfor %}
+</body>
+</html>
